@@ -19,7 +19,7 @@ const Dropdown = ({
   menuBorder = '1px solid #ccc',
   menuZindex = 10,
   menuBgColor = 'transparent',
-  dropdownBoreder = '1px solid #ccc',
+  dropdownBorder = '1px solid #ccc',
   fontColor = '#fff',
   tagBgColor = 'rgba(255, 255 ,255 ,0.1)',
 }) => {
@@ -104,7 +104,7 @@ const Dropdown = ({
   };
 
   return (
-    <Container dropdownBoreder={dropdownBoreder} fontColor={fontColor}>
+    <Container dropdownBorder={dropdownBorder} fontColor={fontColor}>
       <DropdownInput ref={inputRef} onClick={() => setShowMenu((p) => !p)}>
         {!selectedValue || selectedValue.length === 0 ? (
           placeHolder
@@ -162,10 +162,9 @@ export default Dropdown;
 
 const Container = styled.div`
   text-align: left;
-  border: ${({ dropdownBoreder }) => dropdownBoreder};
+  border: ${({ dropdownBorder }) => dropdownBorder};
   position: relative;
   border-radius: 5px;
-  max-width: 20%;
   color: ${({ fontColor }) => fontColor};
 `;
 
