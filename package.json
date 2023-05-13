@@ -1,0 +1,25 @@
+{
+  "name": "react-glass-comps",
+  "version": "0.3.0",
+  "description": "A glass component liberary.",
+  "main": "index.js",
+  "module": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohit-Saini7/react-glass-demo.git"
+  },
+  "keywords": [
+    "glass",
+    "gassmorphism",
+    "styled",
+    "components"
+  ],
+  "author": "rohit-saini7",
+  "bugs": {
+    "url": "https://github.com/Rohit-Saini7/react-glass-demo/issues"
+  },
+  "homepage": "https://react-glass-demo.vercel.app/",
+  "dependencies": {
+    "styled-components": "^5.3.6"
+  }
+}
